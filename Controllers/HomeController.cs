@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MyMvcApp.Models;
@@ -9,19 +10,17 @@ public class HomeController : Controller
     private readonly ApplicationDbContext _context;
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
-    public HomeController(ApplicationDbContext context)
+ public HomeController(ApplicationDbContext context, ILogger<HomeController> logger)
     {
         _context = context;
+        _logger = logger;
     }
+
     public IActionResult Index()
     {
         return View();
     }
-
+    
     public IActionResult Privacy()
     {
         return View();
@@ -34,7 +33,7 @@ public class HomeController : Controller
     }
     public IActionResult TestDbConnection()
     {
-        var category = _context.Category.ToList();  // Fetch data from the 'Products' table
+        var category = _context.Categories.ToList();  // Fetch data from the 'Products' table
         return Json(category);  // Return the data as JSON
     }
 }

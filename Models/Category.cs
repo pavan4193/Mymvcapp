@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 using  MyMvcApp.Models;
@@ -5,11 +6,13 @@ using  MyMvcApp.Models;
 
     public class Category
     {
-        [Key]
+        [Key][Required]
         public int Id { get; set;}
-        [Required]
-        public string Name { get; set;}
         
+
+        [DisplayName("Category Name")]
+        public required string Name { get; set;}
+        [DisplayName("Display order")]
         public int DisplayOrder { get; set;}
     }
 

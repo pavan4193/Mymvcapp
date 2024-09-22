@@ -41,7 +41,7 @@ namespace MyMvcApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
+                    b.ToTable("Categories");
                 });
 #pragma warning restore 612, 618
         }
