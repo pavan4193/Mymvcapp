@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MyMvcApp.Models;
 
 namespace MyMvcApp.Controllers
@@ -26,6 +27,11 @@ namespace MyMvcApp.Controllers
     [HttpPost]
     public IActionResult Create(Category obj)
     {   
+
+        if(obj.Name == obj.DisplayOrder.ToString())
+        {
+            ModelState.AddModelError("name", "The Display order Cannot match the  name");
+        }
         if (ModelState.IsValid)
         {
         _db.Categories.Add(obj);
