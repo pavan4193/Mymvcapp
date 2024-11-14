@@ -1,0 +1,15 @@
+/Users/pavanchotu/MyMvcApp/prgm/bin/Debug/net8.0/prgm
+/Users/pavanchotu/MyMvcApp/prgm/bin/Debug/net8.0/prgm.deps.json
+/Users/pavanchotu/MyMvcApp/prgm/bin/Debug/net8.0/prgm.runtimeconfig.json
+/Users/pavanchotu/MyMvcApp/prgm/bin/Debug/net8.0/prgm.dll
+/Users/pavanchotu/MyMvcApp/prgm/bin/Debug/net8.0/prgm.pdb
+/Users/pavanchotu/MyMvcApp/prgm/obj/Debug/net8.0/prgm.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pavanchotu/MyMvcApp/prgm/obj/Debug/net8.0/prgm.AssemblyInfoInputs.cache
+/Users/pavanchotu/MyMvcApp/prgm/obj/Debug/net8.0/prgm.AssemblyInfo.cs
+/Users/pavanchotu/MyMvcApp/prgm/obj/Debug/net8.0/prgm.csproj.CoreCompileInputs.cache
+/Users/pavanchotu/MyMvcApp/prgm/obj/Debug/net8.0/prgm.sourcelink.json
+/Users/pavanchotu/MyMvcApp/prgm/obj/Debug/net8.0/prgm.dll
+/Users/pavanchotu/MyMvcApp/prgm/obj/Debug/net8.0/refint/prgm.dll
+/Users/pavanchotu/MyMvcApp/prgm/obj/Debug/net8.0/prgm.pdb
+/Users/pavanchotu/MyMvcApp/prgm/obj/Debug/net8.0/prgm.genruntimeconfig.cache
+/Users/pavanchotu/MyMvcApp/prgm/obj/Debug/net8.0/ref/prgm.dll
